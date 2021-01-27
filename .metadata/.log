@@ -1,0 +1,1062 @@
+!SESSION 2021-01-27 08:41:33.922 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-01-27 08:41:43.613
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-27 08:41:43.613
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@85cd413,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@688d2a5d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2021-01-27 08:45:35.916 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/sabyasachibisoyi/eclipse-workspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-01-27 08:45:41.697
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-01-27 08:45:41.697
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58b03029,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@539dd2d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2021-01-27 08:45:44.156
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2021-01-27 08:45:45.298
+!MESSAGE No profile found: default
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2021-01-27 08:45:45.316
+!MESSAGE Monitoring content of /Users/sabyasachibisoyi/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2021-01-27 08:45:45.566
+!MESSAGE AWS toolkit core plugin initialized after 1411 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2021-01-27 08:45:45.571
+!MESSAGE The current accountId is not found in the system. Switching to the default account.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2021-01-27 08:45:46.172
+!MESSAGE Initialized a new Cognito identity us-east-1:f9efd227-c531-4e39-aa8f-f18157788f5c
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-01-27 08:52:54.236
+!MESSAGE Could not download sources for com.amazonaws:aws-java-sdk:1.11.256
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.11.256
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.amazonaws:aws-java-sdk:jar:sources:1.11.256
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-01-27 08:52:54.237
+!MESSAGE Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.11.256
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-01-27 08:52:54.237
+!MESSAGE Missing com.amazonaws:aws-java-sdk:jar:sources:1.11.256
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 08:52:54.455
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 08:52:54.461
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-01-27 08:53:49.112
+!MESSAGE Could not download javadoc for com.amazonaws:aws-java-sdk:1.11.256
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:javadoc:1.11.256
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.amazonaws:aws-java-sdk:jar:javadoc:1.11.256
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-01-27 08:53:49.112
+!MESSAGE Could not resolve artifact com.amazonaws:aws-java-sdk:jar:javadoc:1.11.256
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-01-27 08:53:49.112
+!MESSAGE Missing com.amazonaws:aws-java-sdk:jar:javadoc:1.11.256
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 08:53:49.959
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 08:53:49.963
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2021-01-27 08:59:57.040
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateTargetToModel(ValueBinding.java:122)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.forceUpdateEditorValueToAccountInfoModel(AccountInfoPropertyEditor.java:66)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$11.modifyText(AwsAccountPreferencePageTab.java:954)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2292)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:72)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:1)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:55)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:1)
+	at org.eclipse.core.databinding.property.value.ValueProperty.setValue(ValueProperty.java:93)
+	at org.eclipse.core.internal.databinding.property.value.SimplePropertyObservableValue.doSetValue(SimplePropertyObservableValue.java:104)
+	at org.eclipse.core.databinding.observable.value.AbstractObservableValue.setValue(AbstractObservableValue.java:70)
+	at org.eclipse.core.databinding.observable.value.DecoratingObservableValue.setValue(DecoratingObservableValue.java:117)
+	at org.eclipse.core.databinding.observable.value.DecoratingVetoableValue.setValue(DecoratingVetoableValue.java:48)
+	at org.eclipse.core.databinding.UpdateValueStrategy.doSet(UpdateValueStrategy.java:481)
+	at org.eclipse.core.databinding.ValueBinding.lambda$1(ValueBinding.java:209)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.lambda$0(ValueBinding.java:202)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateModelToTarget(ValueBinding.java:127)
+	at org.eclipse.core.databinding.ValueBinding.postInit(ValueBinding.java:92)
+	at org.eclipse.core.databinding.Binding.init(Binding.java:80)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:201)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:164)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.resetDataBinding(AccountInfoPropertyEditor.java:91)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.accountChanged(AccountInfoPropertyEditor.java:57)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.accountChanged(AwsAccountPreferencePageTab.java:826)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$1(AwsAccountPreferencePageTab.java:823)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$3.selectionChanged(AwsAccountPreferencePageTab.java:447)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1662)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.setUpAccountSelectorItems(AwsAccountPreferencePageTab.java:577)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$4(AwsAccountPreferencePageTab.java:568)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$4.widgetSelected(AwsAccountPreferencePageTab.java:483)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.ShowPreferencePageHandler.execute(ShowPreferencePageHandler.java:58)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:195)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runCommand(CocoaUIHandler.java:421)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.access$0(CocoaUIHandler.java:407)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler$1.widgetSelected(CocoaUIHandler.java:281)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-27 08:59:57.042
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateTargetToModel(ValueBinding.java:122)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.forceUpdateEditorValueToAccountInfoModel(AccountInfoPropertyEditor.java:66)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$11.modifyText(AwsAccountPreferencePageTab.java:954)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2292)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:72)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:1)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:55)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:1)
+	at org.eclipse.core.databinding.property.value.ValueProperty.setValue(ValueProperty.java:93)
+	at org.eclipse.core.internal.databinding.property.value.SimplePropertyObservableValue.doSetValue(SimplePropertyObservableValue.java:104)
+	at org.eclipse.core.databinding.observable.value.AbstractObservableValue.setValue(AbstractObservableValue.java:70)
+	at org.eclipse.core.databinding.observable.value.DecoratingObservableValue.setValue(DecoratingObservableValue.java:117)
+	at org.eclipse.core.databinding.observable.value.DecoratingVetoableValue.setValue(DecoratingVetoableValue.java:48)
+	at org.eclipse.core.databinding.UpdateValueStrategy.doSet(UpdateValueStrategy.java:481)
+	at org.eclipse.core.databinding.ValueBinding.lambda$1(ValueBinding.java:209)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.lambda$0(ValueBinding.java:202)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateModelToTarget(ValueBinding.java:127)
+	at org.eclipse.core.databinding.ValueBinding.postInit(ValueBinding.java:92)
+	at org.eclipse.core.databinding.Binding.init(Binding.java:80)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:201)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:164)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.resetDataBinding(AccountInfoPropertyEditor.java:91)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.accountChanged(AccountInfoPropertyEditor.java:57)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.accountChanged(AwsAccountPreferencePageTab.java:826)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$1(AwsAccountPreferencePageTab.java:823)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$3.selectionChanged(AwsAccountPreferencePageTab.java:447)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1662)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.setUpAccountSelectorItems(AwsAccountPreferencePageTab.java:577)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$4(AwsAccountPreferencePageTab.java:568)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$4.widgetSelected(AwsAccountPreferencePageTab.java:483)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.ShowPreferencePageHandler.execute(ShowPreferencePageHandler.java:58)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:195)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runCommand(CocoaUIHandler.java:421)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.access$0(CocoaUIHandler.java:407)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler$1.widgetSelected(CocoaUIHandler.java:281)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-27 08:59:57.043
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateTargetToModel(ValueBinding.java:122)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.forceUpdateEditorValueToAccountInfoModel(AccountInfoPropertyEditor.java:66)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$11.modifyText(AwsAccountPreferencePageTab.java:954)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2292)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:72)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:1)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:55)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:1)
+	at org.eclipse.core.databinding.property.value.ValueProperty.setValue(ValueProperty.java:93)
+	at org.eclipse.core.internal.databinding.property.value.SimplePropertyObservableValue.doSetValue(SimplePropertyObservableValue.java:104)
+	at org.eclipse.core.databinding.observable.value.AbstractObservableValue.setValue(AbstractObservableValue.java:70)
+	at org.eclipse.core.databinding.observable.value.DecoratingObservableValue.setValue(DecoratingObservableValue.java:117)
+	at org.eclipse.core.databinding.observable.value.DecoratingVetoableValue.setValue(DecoratingVetoableValue.java:48)
+	at org.eclipse.core.databinding.UpdateValueStrategy.doSet(UpdateValueStrategy.java:481)
+	at org.eclipse.core.databinding.ValueBinding.lambda$1(ValueBinding.java:209)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.lambda$0(ValueBinding.java:202)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateModelToTarget(ValueBinding.java:127)
+	at org.eclipse.core.databinding.ValueBinding.postInit(ValueBinding.java:92)
+	at org.eclipse.core.databinding.Binding.init(Binding.java:80)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:201)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:164)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.resetDataBinding(AccountInfoPropertyEditor.java:91)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.accountChanged(AccountInfoPropertyEditor.java:57)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.accountChanged(AwsAccountPreferencePageTab.java:826)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$1(AwsAccountPreferencePageTab.java:823)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$3.selectionChanged(AwsAccountPreferencePageTab.java:447)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1662)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.setUpAccountSelectorItems(AwsAccountPreferencePageTab.java:577)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$4(AwsAccountPreferencePageTab.java:568)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$4.widgetSelected(AwsAccountPreferencePageTab.java:483)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.ShowPreferencePageHandler.execute(ShowPreferencePageHandler.java:58)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:195)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runCommand(CocoaUIHandler.java:421)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.access$0(CocoaUIHandler.java:407)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler$1.widgetSelected(CocoaUIHandler.java:281)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-27 08:59:57.045
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateTargetToModel(ValueBinding.java:122)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.forceUpdateEditorValueToAccountInfoModel(AccountInfoPropertyEditor.java:66)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$11.modifyText(AwsAccountPreferencePageTab.java:954)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2292)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:72)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:1)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:55)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:1)
+	at org.eclipse.core.databinding.property.value.ValueProperty.setValue(ValueProperty.java:93)
+	at org.eclipse.core.internal.databinding.property.value.SimplePropertyObservableValue.doSetValue(SimplePropertyObservableValue.java:104)
+	at org.eclipse.core.databinding.observable.value.AbstractObservableValue.setValue(AbstractObservableValue.java:70)
+	at org.eclipse.core.databinding.observable.value.DecoratingObservableValue.setValue(DecoratingObservableValue.java:117)
+	at org.eclipse.core.databinding.observable.value.DecoratingVetoableValue.setValue(DecoratingVetoableValue.java:48)
+	at org.eclipse.core.databinding.UpdateValueStrategy.doSet(UpdateValueStrategy.java:481)
+	at org.eclipse.core.databinding.ValueBinding.lambda$1(ValueBinding.java:209)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.lambda$0(ValueBinding.java:202)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateModelToTarget(ValueBinding.java:127)
+	at org.eclipse.core.databinding.ValueBinding.postInit(ValueBinding.java:92)
+	at org.eclipse.core.databinding.Binding.init(Binding.java:80)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:201)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:164)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.resetDataBinding(AccountInfoPropertyEditor.java:91)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.accountChanged(AccountInfoPropertyEditor.java:57)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.accountChanged(AwsAccountPreferencePageTab.java:826)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$1(AwsAccountPreferencePageTab.java:823)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$3.selectionChanged(AwsAccountPreferencePageTab.java:447)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1662)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.setUpAccountSelectorItems(AwsAccountPreferencePageTab.java:577)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$4(AwsAccountPreferencePageTab.java:568)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$4.widgetSelected(AwsAccountPreferencePageTab.java:483)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.ShowPreferencePageHandler.execute(ShowPreferencePageHandler.java:58)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:195)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runCommand(CocoaUIHandler.java:421)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.access$0(CocoaUIHandler.java:407)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler$1.widgetSelected(CocoaUIHandler.java:281)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-27 08:59:57.046
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateTargetToModel(ValueBinding.java:122)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.forceUpdateEditorValueToAccountInfoModel(AccountInfoPropertyEditor.java:66)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$11.modifyText(AwsAccountPreferencePageTab.java:954)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2292)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:72)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:1)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:55)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:1)
+	at org.eclipse.core.databinding.property.value.ValueProperty.setValue(ValueProperty.java:93)
+	at org.eclipse.core.internal.databinding.property.value.SimplePropertyObservableValue.doSetValue(SimplePropertyObservableValue.java:104)
+	at org.eclipse.core.databinding.observable.value.AbstractObservableValue.setValue(AbstractObservableValue.java:70)
+	at org.eclipse.core.databinding.observable.value.DecoratingObservableValue.setValue(DecoratingObservableValue.java:117)
+	at org.eclipse.core.databinding.observable.value.DecoratingVetoableValue.setValue(DecoratingVetoableValue.java:48)
+	at org.eclipse.core.databinding.UpdateValueStrategy.doSet(UpdateValueStrategy.java:481)
+	at org.eclipse.core.databinding.ValueBinding.lambda$1(ValueBinding.java:209)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.lambda$0(ValueBinding.java:202)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateModelToTarget(ValueBinding.java:127)
+	at org.eclipse.core.databinding.ValueBinding.postInit(ValueBinding.java:92)
+	at org.eclipse.core.databinding.Binding.init(Binding.java:80)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:201)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:164)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.resetDataBinding(AccountInfoPropertyEditor.java:91)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.accountChanged(AccountInfoPropertyEditor.java:57)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.accountChanged(AwsAccountPreferencePageTab.java:826)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$1(AwsAccountPreferencePageTab.java:823)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$3.selectionChanged(AwsAccountPreferencePageTab.java:447)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1662)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.setUpAccountSelectorItems(AwsAccountPreferencePageTab.java:577)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$4(AwsAccountPreferencePageTab.java:568)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$4.widgetSelected(AwsAccountPreferencePageTab.java:483)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.ShowPreferencePageHandler.execute(ShowPreferencePageHandler.java:58)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:195)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runCommand(CocoaUIHandler.java:421)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.access$0(CocoaUIHandler.java:407)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler$1.widgetSelected(CocoaUIHandler.java:281)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-27 08:59:57.048
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateTargetToModel(ValueBinding.java:122)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.forceUpdateEditorValueToAccountInfoModel(AccountInfoPropertyEditor.java:66)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$11.modifyText(AwsAccountPreferencePageTab.java:954)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2292)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:72)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:1)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:55)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:1)
+	at org.eclipse.core.databinding.property.value.ValueProperty.setValue(ValueProperty.java:93)
+	at org.eclipse.core.internal.databinding.property.value.SimplePropertyObservableValue.doSetValue(SimplePropertyObservableValue.java:104)
+	at org.eclipse.core.databinding.observable.value.AbstractObservableValue.setValue(AbstractObservableValue.java:70)
+	at org.eclipse.core.databinding.observable.value.DecoratingObservableValue.setValue(DecoratingObservableValue.java:117)
+	at org.eclipse.core.databinding.observable.value.DecoratingVetoableValue.setValue(DecoratingVetoableValue.java:48)
+	at org.eclipse.core.databinding.UpdateValueStrategy.doSet(UpdateValueStrategy.java:481)
+	at org.eclipse.core.databinding.ValueBinding.lambda$1(ValueBinding.java:209)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.lambda$0(ValueBinding.java:202)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateModelToTarget(ValueBinding.java:127)
+	at org.eclipse.core.databinding.ValueBinding.postInit(ValueBinding.java:92)
+	at org.eclipse.core.databinding.Binding.init(Binding.java:80)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:201)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:164)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.resetDataBinding(AccountInfoPropertyEditor.java:91)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.accountChanged(AccountInfoPropertyEditor.java:57)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.accountChanged(AwsAccountPreferencePageTab.java:826)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$1(AwsAccountPreferencePageTab.java:823)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$3.selectionChanged(AwsAccountPreferencePageTab.java:447)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1662)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.setUpAccountSelectorItems(AwsAccountPreferencePageTab.java:577)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$4(AwsAccountPreferencePageTab.java:568)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$4.widgetSelected(AwsAccountPreferencePageTab.java:483)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.ShowPreferencePageHandler.execute(ShowPreferencePageHandler.java:58)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:195)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runCommand(CocoaUIHandler.java:421)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.access$0(CocoaUIHandler.java:407)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler$1.widgetSelected(CocoaUIHandler.java:281)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.ui 4 0 2021-01-27 08:59:57.049
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateTargetToModel(ValueBinding.java:122)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.forceUpdateEditorValueToAccountInfoModel(AccountInfoPropertyEditor.java:66)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$11.modifyText(AwsAccountPreferencePageTab.java:954)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2292)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:72)
+	at org.eclipse.jface.internal.databinding.swt.TextTextProperty.doSetStringValue(TextTextProperty.java:1)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:55)
+	at org.eclipse.jface.internal.databinding.swt.WidgetStringValueProperty.doSetValue(WidgetStringValueProperty.java:1)
+	at org.eclipse.core.databinding.property.value.ValueProperty.setValue(ValueProperty.java:93)
+	at org.eclipse.core.internal.databinding.property.value.SimplePropertyObservableValue.doSetValue(SimplePropertyObservableValue.java:104)
+	at org.eclipse.core.databinding.observable.value.AbstractObservableValue.setValue(AbstractObservableValue.java:70)
+	at org.eclipse.core.databinding.observable.value.DecoratingObservableValue.setValue(DecoratingObservableValue.java:117)
+	at org.eclipse.core.databinding.observable.value.DecoratingVetoableValue.setValue(DecoratingVetoableValue.java:48)
+	at org.eclipse.core.databinding.UpdateValueStrategy.doSet(UpdateValueStrategy.java:481)
+	at org.eclipse.core.databinding.ValueBinding.lambda$1(ValueBinding.java:209)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.lambda$0(ValueBinding.java:202)
+	at org.eclipse.core.databinding.Binding.lambda$3(Binding.java:194)
+	at org.eclipse.core.databinding.observable.Realm$1.run(Realm.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.databinding.observable.Realm.safeRun(Realm.java:155)
+	at org.eclipse.core.databinding.observable.Realm.exec(Realm.java:173)
+	at org.eclipse.core.databinding.Binding.execAfterDisposalCheck(Binding.java:192)
+	at org.eclipse.core.databinding.ValueBinding.doUpdate(ValueBinding.java:166)
+	at org.eclipse.core.databinding.ValueBinding.updateModelToTarget(ValueBinding.java:127)
+	at org.eclipse.core.databinding.ValueBinding.postInit(ValueBinding.java:92)
+	at org.eclipse.core.databinding.Binding.init(Binding.java:80)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:201)
+	at org.eclipse.core.databinding.DataBindingContext.bindValue(DataBindingContext.java:164)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.resetDataBinding(AccountInfoPropertyEditor.java:91)
+	at com.amazonaws.eclipse.core.ui.preferences.accounts.AccountInfoPropertyEditor.accountChanged(AccountInfoPropertyEditor.java:57)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.accountChanged(AwsAccountPreferencePageTab.java:826)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$1(AwsAccountPreferencePageTab.java:823)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$3.selectionChanged(AwsAccountPreferencePageTab.java:447)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1662)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.setUpAccountSelectorItems(AwsAccountPreferencePageTab.java:577)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab.access$4(AwsAccountPreferencePageTab.java:568)
+	at com.amazonaws.eclipse.core.ui.preferences.AwsAccountPreferencePageTab$4.widgetSelected(AwsAccountPreferencePageTab.java:483)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.ShowPreferencePageHandler.execute(ShowPreferencePageHandler.java:58)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:195)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.runCommand(CocoaUIHandler.java:421)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler.access$0(CocoaUIHandler.java:407)
+	at org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler$1.widgetSelected(CocoaUIHandler.java:281)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4443)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4229)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2021-01-27 09:04:14.497
+!MESSAGE Switching to global default account
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 10:11:42.364
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 10:11:42.372
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 11:59:59.205
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 11:59:59.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:03:46.044
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:03:46.046
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:05:00.117
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:05:00.119
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:05:57.707
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:05:57.710
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:08:39.923
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:08:39.926
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:11:45.522
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:11:45.524
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:15:29.339
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:15:29.343
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:16:08.539
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:16:08.544
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:17:13.894
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:17:13.896
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:18:22.224
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:18:22.225
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:20:27.147
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-01-27 12:20:27.151
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
