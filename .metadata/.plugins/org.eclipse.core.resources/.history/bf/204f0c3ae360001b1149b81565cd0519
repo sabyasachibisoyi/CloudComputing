@@ -17,7 +17,7 @@ import com.amazonaws.services.ec2.model.Tag;
 public class CreateEC2 {
 	private static final AWSCredentials AWS_CREDENTIALS;
 	static {
-		AWS_CREDENTIALS = new BasicAWSCredentials("Key", "value");
+		AWS_CREDENTIALS = new BasicAWSCredentials("AKIAJ3JTL63H2PQHVI4A", "HDzocVOYUTXX20KpZCdmHYqpfpZ4eoH1Ws7LU5Bq");
 	}
 	public static void main(String[] args) {
 		
@@ -26,7 +26,7 @@ public class CreateEC2 {
 				.withMinCount(1)
 				.withMaxCount(1)
 				.withKeyName("sabyaaws_keypairuseast1")
-				.withSecurityGroupIds("securitygroupId");
+				.withSecurityGroupIds("sg-0f2e26cbba231aedc");
 		RunInstancesResult instancesResult = ec2Client.runInstances(runInstancesRequest);
 		Instance instance = instancesResult.getReservation().getInstances().get(0);
 		String instaceIdString = instance.getInstanceId();
